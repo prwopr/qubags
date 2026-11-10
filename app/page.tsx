@@ -164,7 +164,7 @@ export default function Home() {
           </nav>
 
           <a href="#iletisim" className="bg-[#1d1d1f] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-black transition-all">
-            Ön Kayıt Ol
+            İletişim
           </a>
         </div>
       </header>
@@ -183,7 +183,7 @@ export default function Home() {
           Mükemmel Güvenlik. <br /><span className="text-[#86868b]">Akıllı Ambalaj Devrimi.</span>
         </h1>
         <p className="text-lg md:text-xl text-[#86868b] max-w-2xl mx-auto mb-10 leading-relaxed">
-          Kurcalama kanıtlı (tamper-evident) kilit mekanizması ve QR entegrasyonuyla paketleriniz artık %100 güvende. İlk seride yerinizi ayırtın.
+          Kurcalama kanıtlı (tamper-evident) kilit mekanizması ve QR entegrasyonuyla paketleriniz artık %100 güvende. Gelişmelerden haberdar olmak için bizimle iletişime geçin.
         </p>
         <div className="flex justify-center">
           <a href="#gida" className="bg-[#0071e3] text-white px-8 py-3.5 rounded-full font-medium hover:bg-blue-600 transition-all shadow-sm">
@@ -231,10 +231,7 @@ export default function Home() {
                 <li className="flex items-center">✓ Hızlı açma perforasyon çizgisi ve QR entegrasyonu</li>
               </ul>
               <div className="pt-4">
-                <form onSubmit={(e) => { e.preventDefault(); alert('Ön kayıt talebiniz alındı! Teşekkür ederiz.'); }} className="flex gap-2">
-                  <input type="email" placeholder="E-posta adresiniz..." required className="bg-[#f5f5f7] border border-gray-300 rounded-full px-4 py-2.5 text-sm flex-grow focus:outline-none focus:border-[#0071e3]" />
-                  <button type="submit" className="bg-[#1d1d1f] text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-black transition-all">Gelince Haber Ver</button>
-                </form>
+                <a href="#iletisim" className="inline-block bg-[#1d1d1f] text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-black transition-all">İletişim</a>
               </div>
             </div>
 
@@ -328,10 +325,7 @@ export default function Home() {
                   ))}
                 </ul>
                 <div className="pt-4">
-                  <form onSubmit={(e) => { e.preventDefault(); alert('Ön kayıt talebiniz alındı! Teşekkür ederiz.'); }} className="flex gap-2">
-                    <input type="email" placeholder="E-posta adresiniz..." required className="bg-[#f5f5f7] border border-gray-300 rounded-full px-4 py-2.5 text-sm flex-grow focus:outline-none focus:border-[#0071e3]" />
-                    <button type="submit" className="bg-[#1d1d1f] text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-black transition-all">Gelince Haber Ver</button>
-                  </form>
+                  <a href="#iletisim" className="inline-block bg-[#1d1d1f] text-white px-5 py-2.5 rounded-full text-sm font-medium hover:bg-black transition-all">İletişim</a>
                 </div>
               </div>
 
@@ -398,12 +392,8 @@ export default function Home() {
             <span className="text-xs text-[#86868b] block uppercase tracking-wider mb-1">Kurumsal İletişim E-Posta</span>
             <a href="mailto:qubags.iletisim@gmail.com" className="text-[#0071e3] font-semibold hover:underline text-lg">qubags.iletisim@gmail.com</a>
           </div>
-          <div className="pt-8 border-t border-gray-100 text-xs text-[#86868b] flex flex-col md:flex-row justify-between items-center gap-4">
+          <div className="pt-8 border-t border-gray-100 text-xs text-[#86868b] flex flex-col md:flex-row justify-center items-center gap-4">
             <p>&copy; 2026 Qubags. Tüm hakları saklıdır. Patent Pending.</p>
-            <div className="flex space-x-6">
-              <a href="#" className="hover:text-[#1d1d1f]">Gizlilik Politikası</a>
-              <a href="#" className="hover:text-[#1d1d1f]">Kullanım Şartları</a>
-            </div>
           </div>
         </div>
       </footer>
